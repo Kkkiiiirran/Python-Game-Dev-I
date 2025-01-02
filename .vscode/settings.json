@@ -1,4 +1,8 @@
 {
-    "python.analysis.useLibraryCodeForTypes": true,
-    "python.languageServer": "Pylance"
-}
+    "[python]": {
+      "editor.linting.enabled": false
+    },
+    "files.exclude": {
+      "**/*.pgzero": true
+    }
+  }
