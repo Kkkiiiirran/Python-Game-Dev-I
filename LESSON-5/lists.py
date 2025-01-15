@@ -63,8 +63,8 @@ subtractionResult = [[0,0], [0,0]]
 
 for i in range(0,2):
     for j in range(0,2):
-        additionResult[i][j] = matrixA[i][j] + matrixB[i][j]) 
-        subtractionResult[i][j] = matrixA[i][j] - matrixB[i][j])
+        additionResult[i][j] = matrixA[i][j] + matrixB[i][j]
+        subtractionResult[i][j] = matrixA[i][j] - matrixB[i][j]
       
 # Addition Result
 for i in range(2):

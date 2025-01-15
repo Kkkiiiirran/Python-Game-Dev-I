@@ -28,7 +28,7 @@ print(myset)
 
 myset.remove(2)
 # Throws error if element is not present
-# myset.remove(5)
+myset.remove(5)
 # Does not throw error if element is not present
 myset.discard(5)
 
