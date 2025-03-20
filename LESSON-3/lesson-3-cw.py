@@ -2,11 +2,8 @@
 import pgzrun
 from random import randint
 
-
-
 WIDTH = 300
 HEIGHT = 300
-
 
 def draw():
     r = 255

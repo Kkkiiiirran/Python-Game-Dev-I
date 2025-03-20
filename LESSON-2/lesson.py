@@ -45,3 +45,7 @@ else:
 
 
 # Problem 3: make a student register by taking the user input.
+
+"I am thanishka"
+
+""

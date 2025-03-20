@@ -1,0 +1,38 @@
+1️⃣ Set Up the Game Window
+
+Define the screen size (WIDTH and HEIGHT).
+Set a background image (screen.blit('new_bg', (0, 0))).
+2️⃣ Create the List of Items
+
+Define the list of items (ITEMS = ["bag", "battery", "bottle", "chips"]).
+Ensure each item has a corresponding image file.
+3️⃣ Display Items on the Screen
+
+Create Actor objects for each item.
+Position them properly across the screen.
+4️⃣ Animate the Items Falling
+
+Use animate() to make items fall from top to bottom.
+Adjust animation speed based on the level.
+5️⃣ Handle Mouse Clicks on Items
+
+Detect if the player clicks an item (on_mouse_down(pos)).
+Check if the clicked item is "paper" to continue or another item to trigger "Game Over".
+6️⃣ Implement Game Over Logic
+
+Display a "Game Over" message.
+Stop animations and prevent further interactions.
+7️⃣ Implement Level Progression
+
+Increase the level when the player clicks "paper".
+Generate a new set of items for the next level.
+Stop the game when the final level is reached.
+8️⃣ Allow Restarting the Game
+
+Reset the game when a key is pressed (on_key_down(key)).
+Clear previous items and animations.
+9️⃣ Improve UI and Feedback (Optional Enhancements)
+
+Show current level and score on the screen.
+Add sound effects for clicks and game-over events.
+Add a start screen before the game begins.

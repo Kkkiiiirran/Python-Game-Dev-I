@@ -1,0 +1,35 @@
+import pgzrun
+
+# Screen size
+WIDTH = 500
+HEIGHT = 500
+
+# Colors (R, G, B)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED   = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE  = (0, 0, 255)
+
+def draw():
+    screen.fill(WHITE)  # Set background color
+
+    # 🎯 **Drawing Shapes**
+    
+    #1️⃣ Line
+    screen.draw.line((50, 50), (200, 50), BLACK)  # (start_x, start_y), (end_x, end_y), color
+    
+    # 2️⃣ Rectangle
+    screen.draw.rect(Rect((50, 100), (150, 80)), RED)  # Rect((x, y), (width, height))
+    
+    # 3️⃣ Circle
+    screen.draw.filled_circle((300, 150), 40, BLUE)  # (center_x, center_y), radius, color
+    
+    # 4️⃣ Ellipse
+    screen.draw.filled_ellipse(Rect((250, 200), (120, 60)), GREEN)  # (x, y, width, height)
+    
+    # 5️⃣ Polygon (Triangle)
+    screen.draw.filled_polygon([(100, 300), (150, 250), (200, 300)], BLACK)  # List of points
+
+# Run the game
+pgzrun.go()

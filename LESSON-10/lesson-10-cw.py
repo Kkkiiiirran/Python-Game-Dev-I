@@ -13,7 +13,6 @@ ITEMS = ["bag","battery","bottle","chips"]
 game_over = False
 game_complete = False
 current_level = 1
-# bag = Actor("paperimg")
 items = []
 animations = []
 
