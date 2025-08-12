@@ -1,4 +1,3 @@
-
 import pgzrun
 from pgzero.builtins import *
 import pgzero.screen
@@ -13,6 +12,7 @@ alien = Actor('alien')
 
 def draw():
     screen.clear()
+    
     screen.fill(color = (128, 0, 0))
     alien.draw()
     screen.draw.text(message, center = (400, 20), fontsize = 30)
@@ -31,3 +31,9 @@ def on_mouse_down(pos):
         message = "You missed.."
 place_alien()
 pgzrun.go()
+
+
+    
+
+
+

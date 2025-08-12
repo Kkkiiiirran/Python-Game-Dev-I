@@ -1,5 +1,8 @@
 import pgzrun
 import random
+import pgzero.screen
+screen: pgzero.screen.Screen
+from pgzero.builtins import *
 FONT_option = (255, 255, 255)
 WIDTH = 800
 HEIGHT = 600

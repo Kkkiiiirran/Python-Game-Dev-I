@@ -2,7 +2,7 @@ import time
 from turtle import color
 import pgzrun
 
-TITLE = "Qui Master"
+TITLE = "Quiz Master"
 WIDTH = 870
 HEIGHT = 1000
 
@@ -25,7 +25,7 @@ skip_box.move_ip(700,270)
 
 questions = []
 question_index = 0
-question_file_name = "LESSON-11/questions.txt"
+question_file_name = "C:/Users\Kiranpreet Kaur/OneDrive/Documents/JetLearn/Python Game Dev - I/LESSON-11/lesson-11-2.py"
 
 is_game_over = False
 score = 0

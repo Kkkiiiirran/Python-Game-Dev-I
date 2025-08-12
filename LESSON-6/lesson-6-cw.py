@@ -35,14 +35,15 @@ def place_flower():
 
 def update():
     global score
-    if keyboard.left:
-        bee.x-=2
-    if keyboard.right:
-        bee.x+=2
-    if keyboard.up:
-        bee.y-=2
-    if keyboard.down:
-        bee.y+=2
+    bee.y+=1
+    # if keyboard.left:
+    #     bee.x-=2
+    # if keyboard.right:
+    #     bee.x+=2
+    # if keyboard.up:
+    #     bee.y-=2
+    # if keyboard.down:
+    #     bee.y+=2
     
     if bee.colliderect(flower):
         place_flower()

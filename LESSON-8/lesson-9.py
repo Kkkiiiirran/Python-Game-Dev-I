@@ -7,6 +7,14 @@ WIDTH = 800
 HEIGHT = 600
 
 satellites = []
+
+next_sat=1
+if satellites[next_sat].collidepoint(pos):
+
+for i in range(8):
+    sat = Actor("satellite")
+    satellites.append(sat)
+
 num_of_sats = 8
 next_satellite = 0
 lines = []
@@ -39,6 +47,14 @@ def draw():
     global lines, start_time, total_time, game_over
     screen.blit('background', (0, 0))
     number = 1
+
+    for i in range(8):
+        satellites[i].draw()
+        screen.draw.text(str(i+1), (satellites[i].x, satellites[i].y+20))
+
+
+
+
     for satellite in satellites:
         satellite.draw()
         screen.draw.text(str(number), (satellite.pos[0], satellite.pos[1]+20))
@@ -74,5 +90,5 @@ def on_mouse_down(pos):
 
 
 create_satelite()
-clock.schedule(time_up, 5.0)
+clock.schedule(time_up, 60.0)
 pgzrun.go()

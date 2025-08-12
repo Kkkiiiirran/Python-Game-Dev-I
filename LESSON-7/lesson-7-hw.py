@@ -5,10 +5,7 @@
 # The program should ask the user to enter details like groupname, Sizeofthegroup, 
 # dateofthecompetition, venue, typeofthemedal. Store it as a tuple.
 
-# This should be done for all the five groups.
-
-from sqlite3 import Date
-
+# This should be done for all the five groups
 
 records = {}
 
