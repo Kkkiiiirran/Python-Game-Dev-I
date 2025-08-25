@@ -9,7 +9,7 @@ HEIGHT = 600
 satellites = []
 
 next_sat=1
-if satellites[next_sat].collidepoint(pos):
+# if satellites[next_sat].collidepoint(pos):
 
 for i in range(8):
     sat = Actor("satellite")
